@@ -1,0 +1,102 @@
+Gibson:
+  - for:
+      - Gibson
+      - Anthony
+      - Ben
+    payments:
+      tokyo hotel from disney: 16100
+      flight 1 from fuk to oki: 24600
+      flight 2 from oki to osa: 23070
+      train from osa to tokyo: 44160
+      disney land tickets: 26700
+      disney sea tickets: 28200
+      fastpass soaring: 60000
+      fastpass beauty and beast: 6000
+      fastpass center of earth: 4500
+      pizza osaka combi: 1100
+      kurasushi ikebukuro: 6254
+      bus to ikebukuro: 3500
+      maidreamin: 12430
+
+  - for:
+      - Anthony
+    payments:
+      covfefe: 600
+      breads: 1609
+      gacha: 1600
+      atm1: 10000
+      atm2: 10000
+      uminonakamocher: 1150
+      okinawa atm: 20000
+      nepal foodge: 2000
+      reload anthony nara start: 20000
+      skyliner: 5140
+  - for:
+      - Ben
+    payments:
+      on the way to airport: 5000
+
+Ben:
+  - for:
+      - Gibson
+    payments:
+      okinawa card: 2000
+      okinawa shrine entrance: 500
+      nepal foodge: 2000
+      mex pay: 1000
+
+  - for:
+      - Gibson
+      - Ben
+      - Anthony
+    payments:
+      taxi: 17990
+      izakaya: 11140
+      mexican restrant: 10000
+      fried shit osaka first nite: 6000
+      osaka pizza: 10000
+      kyoto nutty sushi: 12000
+      hokaido corn ramen: 5280
+      shabushabu aki: 11869
+      sushiro: 9100
+      tokyo tower: 3600
+      sumetai soba: 3300
+
+Anthony:
+  - for:
+      - Gibson
+      - Ben
+      - Anthony
+    payments:
+      okonomiyaki osaka: 3755
+      giant udon: 6650
+      nara gyudon: 6000
+      fanny: 3000
+      tokyo airb: 131615
+      osaka airb: 73790
+      okinawa airb: 49677
+
+  - for:
+      - Ben
+      - Anthony
+    payments:
+      fukuoka airb: 78513
+
+  - for:
+      - Gibson
+    payments:
+      last supper soba: 4460
+
+Ami:
+  - for:
+      - Gibson
+      - Ami
+      - Ben
+      - Anthony
+    payments:
+      train to haneda: 4000
+      disney churros 4: 2000
+  - for:
+      - Ben
+    payments:
+      water: 200

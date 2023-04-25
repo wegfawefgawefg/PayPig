@@ -19,8 +19,6 @@ def parse_arguments():
 
 
 def payup(ledger):
-    # pprint(ledger)
-
     debtors = {}
     for pig in ledger:
         for payment_set in ledger[pig]:
@@ -42,9 +40,6 @@ def payup(ledger):
 
                     debtors[payee][pig] += price / num_payees
 
-    # print("\nAll debts:")
-    # pprint(debtors)
-
     # simplify debts, if ben owes gibson 1000 and gibson owes ben 500, then gibson owes ben 500, and ben owes gibson 0
     for debtor in debtors:
         for debtee in debtors[debtor]:
@@ -64,11 +59,8 @@ def payup(ledger):
         if len(debtors[debtor]) == 0:
             del debtors[debtor]
 
-    # print("\nSimplified debts:")
-    # pprint(debtors)
-
-    # print things nicely zone
-
+    ####    print things nicely     ####
+    # calculate longest name
     longest_name_length = 0
     all_names = []
     for debtor in debtors:
@@ -76,9 +68,8 @@ def payup(ledger):
         for debtee in debtors[debtor]:
             all_names.append(debtee)
     longest_name_length = max([len(name) for name in all_names])
-    # print(f"Longest name length: {longest_name_length}")
 
-    # longest name
+    # print debts
     for debtor in debtors:
         debtor_colored_name = get_colored_string(debtor)
         print(f"{debtor_colored_name} owes")

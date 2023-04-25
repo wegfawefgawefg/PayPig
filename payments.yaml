@@ -15,21 +15,20 @@ Gibson:
       fastpass center of earth: 4500
       pizza osaka combi: 1100
       kurasushi ikebukuro: 6254
-      bus to ikebukuro: 3500
-      maidreamin: 12430
+      bus to ikebukuro: 3900
 
   - for:
       - Anthony
     payments:
       covfefe: 600
       breads: 1609
-      gacha: 1600
+      gacha: 2000
       atm1: 10000
       atm2: 10000
-      uminonakamocher: 1150
       okinawa atm: 20000
-      nepal foodge: 2000
       reload anthony nara start: 20000
+      uminonakamocher: 1150
+      nepal foodge: 2000
       skyliner: 5140
   - for:
       - Ben
@@ -42,25 +41,27 @@ Ben:
     payments:
       okinawa card: 2000
       okinawa shrine entrance: 500
-      nepal foodge: 2000
-      mex pay: 1000
 
   - for:
       - Gibson
       - Ben
       - Anthony
     payments:
+      ami airport ramen: 5280
+      nepal food: 4082
       taxi: 17990
       izakaya: 11140
-      mexican restrant: 10000
-      fried shit osaka first nite: 6000
+      mexican restrant: 3260
+      fried shit osaka first nite: 6281
       osaka pizza: 10000
       kyoto nutty sushi: 12000
       hokaido corn ramen: 5280
       shabushabu aki: 11869
-      sushiro: 9100
+      sushiro: 9150
       tokyo tower: 3600
-      sumetai soba: 3300
+      asahibashi sumetai soba: 4180
+      aq tickets: 5850
+      awomb sushi kyoto: 12870
 
 Anthony:
   - for:
@@ -70,11 +71,13 @@ Anthony:
     payments:
       okonomiyaki osaka: 3755
       giant udon: 6650
-      nara gyudon: 6000
+      nara gyudon: 6050
+      oden: 8720
       fanny: 3000
       tokyo airb: 131615
       osaka airb: 73790
       okinawa airb: 49677
+      maidreamin: 12430
 
   - for:
       - Ben
@@ -86,6 +89,14 @@ Anthony:
       - Gibson
     payments:
       last supper soba: 4460
+      disney beef sweats dinner: 10000
+
+  - for:
+      - Ben
+    payments:
+      donky: 8000
+      walking stick: 11220
+      disney beef sweats dinner: 5000
 
 Ami:
   - for:
